@@ -14,7 +14,7 @@ body{
 }
 h1{
     font-size: 4rem;
-    box-shadow: 0 0 50px rgb(50, 169, 193);
+    box-shadow: 0 0 50px rgb(142, 205, 220);
     color: rgb(6, 6, 6);
     /* background-color: brown; */
 }
@@ -110,7 +110,7 @@ width: 60vh; */
     transition-property: all;
 }
 .bg-2 img{
-    height: 40vh;
+    height: 50vh;
     width: 80vh;
 }
 .bg-2{
@@ -148,6 +148,7 @@ width: 60vh; */
     gap: 80px;
     margin-left: 20px;
     justify-content: space-between;
+    margin-top: 60px;
 }
 #tog-1,#tog-2{
     border-radius: 10%;
@@ -155,10 +156,15 @@ width: 60vh; */
     background-color: bisque;
     /* margin-top: 30px; */
 }
+#tog-1:hover,#tog-2:hover{
+    cursor: pointer;
+    background-color: rgb(247, 199, 127);
+    box-shadow: 0 0 20px rgb(198, 220, 216);
+}
 .winter{
     display: flex;
     justify-content: space-between;
-    background-color: wheat;
+    /* background-color: wheat; */
 
 }
 .winter img{
@@ -191,7 +197,7 @@ width: 60vh; */
 .autumn{
     display: flex;
     justify-content: space-between;
-    background-color: wheat;
+    /* background-color: wheat; */
 }
 .autumn img{
     height: 60vh;
@@ -200,7 +206,7 @@ width: 60vh; */
     background-position: cover;
 }
 .bg-2-color{
-    background-color: rgb(241, 255, 241);
+    /* background-color: rgb(241, 255, 241); */
 }
 .management{
     background-color: rgb(30, 29, 29);
